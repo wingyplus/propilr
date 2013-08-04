@@ -1,0 +1,13 @@
+{application, propilr,
+ [
+  {description, "C Compiler online for SUT Computer Programming class."},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  cowboy
+                 ]},
+  {mod, { propilr_app, []}},
+  {env, []}
+ ]}.
